@@ -1,0 +1,24 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ],
+  "env": {
+    "EUREKA_USER_PASSWORD": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "eureka-server",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
